@@ -1,7 +1,11 @@
 import React from "react";
 
 function Home() {
-  return <h1>Home</h1>;
+  return (
+    <React.Fragment>
+      <h1>Home</h1>
+    </React.Fragment>
+  );
 }
 
 export default Home;
