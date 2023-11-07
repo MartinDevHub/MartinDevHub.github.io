@@ -40,6 +40,11 @@ function NavBar() {
                   <i className="bi bi-whatsapp mx-2 icon"></i>
                 </a>
               </li>
+              <li className="nav-item">
+                <Link to={"/form"}>
+                  <i className="bi bi-envelope-fill mx-2 icon"></i>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
