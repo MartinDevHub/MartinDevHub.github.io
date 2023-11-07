@@ -1,5 +1,4 @@
 import React from "react";
-import MyImage from "../../assets/images/MyImage.jpeg";
 import { Link } from "react-router-dom";
 import "./navBar.scss";
 
@@ -9,34 +8,37 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link to="/">
-            <img src={MyImage} alt="My Image" className="navbar-image"></img>
+            <i className="bi bi-house-door-fill icon"></i>
           </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/about-me"
+                <a
+                  href="https://www.linkedin.com/in/martinmarcoff/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  About Me
-                </Link>
+                  <i className="bi bi-linkedin mx-2 icon"></i>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
-                  Contact Me
-                </Link>
+                <a
+                  href="https://github.com/MartinDevHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="bi bi-github mx-2 icon"></i>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="
+                  https://wa.link/dobjwg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="bi bi-whatsapp mx-2 icon"></i>
+                </a>
               </li>
             </ul>
           </div>
