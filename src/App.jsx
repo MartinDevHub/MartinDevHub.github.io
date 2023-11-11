@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import Form from "./components/Form/Form";
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/form" element={<Form />} />
       </Routes>
     </React.Fragment>
   );

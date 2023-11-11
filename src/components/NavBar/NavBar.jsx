@@ -41,7 +41,7 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <Link to={"/form"}>
+                <Link to={"/contact"}>
                   <i className="bi bi-envelope-fill mx-2 icon"></i>
                 </Link>
               </li>

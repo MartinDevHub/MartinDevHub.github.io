@@ -4,4 +4,11 @@
   align-items: center;
   height: 100vh;
   margin-top: 20px;
+  .form-wrapper {
+    border: solid;
+    padding: 20px;
+  }
+  .form-control {
+    margin-bottom: 20px;
+  }
 }
