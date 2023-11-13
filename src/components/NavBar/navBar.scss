@@ -1,16 +1,18 @@
 .navbar-component {
-  .navbar-image {
-    width: 30px;
-    height: 24px;
-    border-radius: 50%;
+  .navbar {
+    background-color: #000;
+  }
+
+  .navbar-brand {
+    color: #fff;
   }
 
   .icon {
     font-size: 1.5rem;
-    color: red;
+    color: #000;
   }
 
   .icon:hover {
-    color: black;
+    color: #fff;
   }
 }

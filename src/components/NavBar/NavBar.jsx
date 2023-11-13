@@ -7,7 +7,7 @@ function NavBar() {
     <div className="navbar-component">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link to="/">
+          <Link to="/" className="navbar-brand">
             <i className="bi bi-house-door-fill icon"></i>
           </Link>
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -32,8 +32,7 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <a
-                  href="
-                  https://wa.link/dobjwg"
+                  href="https://wa.link/dobjwg"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
