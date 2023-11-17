@@ -1,6 +1,6 @@
 .navbar-component {
   .navbar {
-    background-color: #000;
+    box-shadow: 0 0 10px rgb(40, 112, 31);
   }
 
   .navbar-brand {
@@ -9,10 +9,10 @@
 
   .icon {
     font-size: 1.5rem;
-    color: #000;
+    color: rgb(138, 136, 136);
   }
 
   .icon:hover {
-    color: #fff;
+    color: rgb(75, 73, 73);
   }
 }
