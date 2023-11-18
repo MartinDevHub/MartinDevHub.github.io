@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import Swal from "sweetalert2";
+import { toast } from "react-toastify";
 import * as Yup from "yup";
 import "./form.scss";
 
@@ -11,12 +12,14 @@ function MailForm() {
     body: "",
   };
 
-  const onSubmit = () => {
+  const onSubmit = (values, { resetForm }) => {
+    const successMessage = ` I will be attending to your inquiry promptly`;
     Swal.fire({
       icon: "success",
-      title: "Email Sent",
-      text: "Thank you for reaching out. I will attend to your inquiry promptly",
+      title: `Thank you for reaching out, ${values.name}!`,
+      text: successMessage,
     });
+    resetForm();
   };
 
   const validationSchema = Yup.object({
